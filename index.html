@@ -8,22 +8,23 @@
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<link rel="stylesheet" href="Assets/style/style.css">
 </head>
-<body>
+<body class="body_color">
 	<!-- Barra de navegación -->
-	<nav class="navbar navbar-expand bg-body-tertiary">
+	<nav class="navbar navbar-expand navbar-dark navbarColor">
 		<div class="container-fluid ">
 		  <a class="navbar-brand" href="#">Luis Diaz Huenulef</a>
 	        <div class="navbar-nav  ">
-			  <a class="nav-link active " aria-current="page" href="#">Home</a>
-			  <a class="nav-link " href="#">Features</a>
-			  <a class="nav-link " href="#">Pricing</a>
-			  <a class="nav-link disabled " aria-disabled="true">Disabled</a>
+			  <a class="nav-link active " aria-current="page" href="#habilidades">Skills</a>
+			  <a class="nav-link " href="#exp_laboral">Trabajos</a>
+			  <a class="nav-link " href="#proyectos">Proyectos</a>
+			  <a class="nav-link " aria-current="true" href="#testimonio">Testimonios</a>
+			  <a class="nav-link " aria-current="true" href="#contacto">Contacto</a>
 			</div>
 		  
 		</div>
 	</nav>
 	  <!-- Carrera y pequeña intro -->
-	<Header class="container my-5">
+	<Header class="container my-5 header_size">
 		<div class="row text-center ">
 			<div class="col">
 				<h1>Front End Developer</h1>
@@ -37,100 +38,158 @@
 
 	 </Header>
 	   <!-- Imagenes relacionadas conmigo, alguna foto -->
-	<section class="container-fluid">
+	<section class="container-fluid section_color">
 		<div class="row">
 			<img src="Assets/images/Front_End.jpg" alt="Foto-mia" class="img-fluid rounded">
-			
 		</div>
+	</section>
+	<!-- Tarjetas con las habilidades duras, descripcion -->
+	<section class="container-fluid my-4">
+		<div class="row text-center align-items-center">
+			<div class="col">
+				<h2 id="habilidades" class="border border-info-subtle border-start-0 rounded-end">Habilidades y aptitudes</h2>
+				<ul>
+					<li class="liSkill">Capacidad de Respuesta</li>
+					<li class="liSkill" >Adaptabilidad a los cambios y ritmos de trabajo</li>
+					<li class="liSkill">Colaboración con equipos multidisciplinarios</li>
+					<li class="liSkill">Resolución de conflictos</li>
+					<li class="liSkill">Liderazgo</li>
+					<li class="liSkill">Trabajo en equipo</li>
+				</ul>
 
+			</div>
+        </div>
 	</section>
 	<!-- Presentacion personal, fortalezas -->
-    <article class="container mt-4">
+    <article class="container mt-4 article_color">
 		<div class="row">
-			<h2 class="col text-center">Lenguajes utilizados
-
-			</h2>
-
+			<h2 class="col text-center" id="">Lenguajes utilizados</h2>
 		</div>
-		<div class="row justify-content-center">
+		<div class="row justify-content-center align-items-center">
 			<div class="col-md-6 col-lg-4 text-center my-4">
-				<div class="card" style="width: 100%;">
-					<img src="Assets/images/css.png" class="card-img-top img-fluid" alt="css_icono">
+				<div class="card img_skill" style="width:100% ;">
+					<img src="Assets/images/css.png" class="card-img-top img-fluid img_skill" alt="css_icono">
 					<div class="card-body">
-				  	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	<p class="card-text">10 años de experiencia en CSS3 desarrollando proyectos y trabajando en equipos multidisciplinarios, ademas de tener conocimientos en los distintos frameworks; Bootstrap, Foundation, Bulma y Semantic UI.</p>
 					</div>
 			  	</div>
 			</div>  
 			<div class="col-md-6 col-lg-4 text-center my-4">
-				<div class="card" style="width: 100%;">
-					<img src="Assets/images/html.png" class="card-img-top img-fluid" alt="html_icono">
+				<div class="card img_skill " style="width:100%">
+					<img src="Assets/images/html.png" class="card-img-top img-fluid img_skill" alt="html_icono">
 					<div class="card-body">
-				  	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	<p class="card-text">10 años de experiencia en HTML5 desarrollando proyectos y trabajando en equipos multidisciplinarios, cuento con experiencia creando listas, tablas y amplio conocimiento en etiquetas semánticas en los sitios.</p>
 					</div>
 			  	</div>
 			</div> 
 			<div class="col-md-6 col-lg-4 text-center my-4">
-				<div class="card" style="width: 100%;">
-					<img src="Assets/images/javascript.png" class="card-img-top img-fluid" alt="js_icono">
+				<div class="card img_skill" style="width:100%">
+					<img src="Assets/images/javascript.png" class="card-img-top img-fluid img_skill" alt="js_icono">
 					<div class="card-body">
-				  	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	<p class="card-text">10 años de experiencia en HTML5 desarrollando proyectos y trabajando en equipos multidisciplinarios, ademas de tener conocimiento en los distintos frameworks; Vue.js, Angular.js, React.js y Next.js</p>
 					</div>
 			  	</div>
 			</div> 
-			
 		</div>
-		
-
 	</article>
-	<!-- Tarjetas con las habilidades duras, descripcion -->
-	<section class="container">
-		<div class="row ">
-			<div class="col">
-
+	<!-- Experiencia profesional  -->
+	<section class="container-fluid my-5 section_color">
+		<div class="row">
+			<h2 class="col text-center my-4 border border-info-subtle border-start-0 rounded-end" id="exp_laboral">Trabajos</h2>
+		</div>
+		<div class="row justify-content-center border rounded my-2 ">	
+			<div class="col-md-5 col-lg-3 text-center border rounded mx-2 my-2 trabajoColor">
+				<h3 class="my-2">Desarrollado front-end Mercado Libre 2018-Actualidad</h3>
+				<ul>
+					<li>
+						Design and implement robust frontend architectures using JavaScript frameworks such as React.js, Angular, or Vue.js	
+					</li>
+					<li>
+						Architect scalable and maintainable backend solutions using JavaScript technologies such as Node.js, Express.js, or NestJS
+					</li>
+					<li>
+						Optimize application performance, responsiveness, and reliability through efficient code design, data caching, and asynchronous processing
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-5 col-lg-3 text-center border rounded mx-2 my-2 trabajoColor ">
+				<h3 class="my-2">Desarrollado front-end Sr. Mercado Libre 2015-2018</h3>
+				<ul>
+					<li>
+						Desarrollo de servicios web y herramientas para complementar las funcionalidades de las plataformas ZOHO.
+					</li>
+					<li>
+						Análisis de código para identificar potenciales mejoras y optimización. 
+					</li>
+					<li>
+						Generación de informes de levantamiento y documentación de los desarrollos.
+					</li>
+					<li>
+						Desarrollo, escritura de código y documentación de funcionalidades. 
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-5 col-lg-3 text-center border rounded mx-2 my-2 trabajoColor">
+				<h3 class="my-2">Programador web trainee Mercado Libre 2011-2015</h3>
+				<ul>
+					<li>
+						Diseñar y mantener nuestra página web utilizando tecnologías modernas como HTML, CSS y JavaScript.
+					</li>
+					<li>
+						Creación y Gestión de Chatbots; Desarrollar chatbots para interactuar con nuestros clientes y mejorar el servicio al cliente. 
+					</li>
+					<li>
+						Configuración y Personalización de CRM; Configurar y personalizar nuestro CRM (Clientify u otro), para mejorar la gestión de clientes y procesos internos.
+					</li>
+					<li>
+						Gestión de Correos Electrónicos; Supervisar la entrada y salida de correos electrónicos y asegurar su integración con el CRM.
+					</li>
+				</ul>
 			</div>
         </div>
 	</section>
-	<!-- Experiencia profesional y proyectos -->
-	<section class="container-fluid my-5">
-		<div class="row justify-content-center border my-2 ">
-			<h2 class="my-4">Trabajos</h2>
-			<div class="col-md-5 col-lg-3 text-center border mx-2 my-2">
-				<h3 class="my-2">Desarrollado front-end Mercado Libre 2018-Actualidad</h3>
-				<p>Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
-
-			</div>
-			<div class="col-md-5 col-lg-3 text-center border mx-2 my-2 ">
-				<h3 class="my-2">Desarrollado front-end Mercado Libre 2018-Actualidad</h3>
-				<p>Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
-
-			</div>
-			<div class="col-md-5 col-lg-3 text-center border mx-2 my-2">
-				<h3 class="my-2">Desarrollado front-end Mercado Libre 2018-Actualidad</h3>
-				<p>Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
-
-			</div>
-        </div>
+	<!-- Proyectos -->
+	<section class="container-fluid my-5 section_color">
+		<div class="row">
+			<h2 class=" col text-center my-4 border border-info-subtle border-start-0 rounded-end" id="proyectos">Proyectos personales</h2>
+		</div>
 		<div class="row justify-content-center border my-2">
-			<h2 class="my-4">Proyectos</h2>
-			<div class="col-md-5 col-lg-3 text-center border mx-2 my-2">
-				<h3 class="my-2">Desarrollado front-end Mercado Libre 2018-Actualidad</h3>
-				<p>Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
-
+				<div class="card col-md-5 col-lg-3 text-center my-3 mx-2" style=" width:18rem ;">
+					<div class="card-body">
+					  <h5 class="card-title">Desarrollo webpage Inmobiliaria "Tu casa"</h5>
+					  <p class="card-text ">Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas. lo</p>
+					  <a href="www.tucasa.com" target="_blank" class="btn btn-primary d-block">Al proyecto</a>
+					</div>
+				</div>
+				<div class="card col-md-5 col-lg-3 text-center my-3 mx-2" style="width:18rem ;">
+					<div class="card-body">
+					  <h5 class="card-title">Desarrollo webpage "El analista contable"</h5>
+					  <p class="card-text ">Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
+					  <a href="www.analista.com" target="_blank" class="btn btn-primary d-block">Al proyecto</a>
+					</div>
+				</div>
+				<div class="card col-md-5 col-lg-3 text-center my-3 mx-2" style="width:18rem ;">
+					<div class="card-body">
+					  <h5 class="card-title">Desarrollo webpage "El kilometro prestado"</h5>
+					  <p class="card-text ">Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
+					  <a href="www.elklprest.com" target="_blank" class="btn btn-primary d-block">Al proyecto</a>
+					</div>
+				</div>
+				<div class="card col-md-5 col-lg-3 text-center my-3 mx-2" style=" width:18rem ;">
+					<div class="card-body">
+					  <h5 class="card-title">Desarrollo webpage negocio local "Nojab"</h5>
+					  <p class="card-text ">Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas. lo</p>
+					  <a href="www.nojab.com" target="_blank" class="btn btn-primary d-block">Al proyecto </a>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-5 col-lg-3 text-center border mx-2 my-2">
-				<h3 class="my-2">Desarrollado front-end Mercado Libre 2018-Actualidad</h3>
-				<p>Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
-
-			</div>
-			<div class="col-md-5 col-lg-3 text-center border mx-2 my-2">
-				<h3 class="my-2">Desarrollado front-end Mercado Libre 2018-Actualidad</h3>
-				<p>Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
-
-			</div>
-        </div>
 	</section>
 	<!-- Testimonios -->
-	<section class="container">
+	<section class="container-fluid section_color">
+		<div class="row">
+			<h2 class="col text-center my-4 border border-info-subtle border-start-0 rounded-end " id="testimonio"> Testimonios</h2>
+
+		</div>
 		<div class="row h-100">
 			<div id="carouselExampleCaptions" class="carousel slide">
 				<div class="carousel-indicators">
@@ -142,22 +201,22 @@
 				  <div class="carousel-item active">
 					<img src="Assets/images/testimonio1.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
-					  <h5>First slide label</h5>
-					  <p>Some representative placeholder content for the first slide.</p>
+					  <h5>Juan Gabriel Larrain Soto</h5>
+					  <p>Gerente de Operaciones de Mercado Libre.</p>
 					</div>
 				  </div>
 				  <div class="carousel-item">
 					<img src="Assets/images/tesimonio2.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
-					  <h5>Second slide label</h5>
-					  <p>Some representative placeholder content for the second slide.</p>
+					  <h5>Juana Maria Gonzalez Videla</h5>
+					  <p>Analista Senior de 3wproyects.</p>
 					</div>
 				  </div>
 				  <div class="carousel-item">
 					<img src="Assets/images/testimonio3.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
-					  <h5>Third slide label</h5>
-					  <p>Some representative placeholder content for the third slide.</p>
+					  <h5>Jose Tomas Vial Santander</h5>
+					  <p>Jefe de análisis de datos del Banco Interamericano.</p>
 					</div>
 				  </div>
 				</div>
@@ -173,9 +232,9 @@
         </div>
 	</section>
 	<!-- Formulario de contacto -->
-	<section class="container my-3">
-		<form class="container-fluid border">
-			<h4 class="my-3">Contacto</h4>
+	<section class="container-fluid my-3 section_color">
+		<form class="container-fluid border rounded" id="contactForm" >
+			<h4 class="my-3" id="contacto" >Contacto</h4>
 			<p>Ingresa tus datos de contacto, tu motivo y te contactare a la brevedad.</p>
 			<div class="mb-3">
 				<label for="nombre-organizacion" class="form-label">Nombre/Organización</label>
@@ -191,24 +250,46 @@
 				<label for="proyecto" class="form-label">Descripción del proyecto</label>
 				<textarea class="form-control" id="proyecto" rows="3"></textarea>
 			  </div>
-			<button type="submit" class="btn btn-primary my-3">Submit</button>
+			<button type="submit" class="btn btn-primary my-3" id="submitBtn" >Submit</button>
 		  </form>
 
 	</section>	 
 	
 
 	  <!-- Footer -->
-	<footer class="container">
-		<div class="row">
+	<footer class="container-fluid my-5 footer_color">
+		<div class="row justify-content-center align-items-center text-center">
 			<div class="col">
+				<img src="Assets/images/img1footer.jpg" class="img-fluid" alt="footer1">
 
 			</div>
+			<div class="col">
+				<img src="Assets/images/img2footer.jpg" class="img-fluid" alt="footer2">
 
+			</div>
+			<div class="col">
+				<h4>Mis redes :</h4>
+				<ul class="lista_footer">
+					<li><a href="www.linkedin.com"><img src="Assets/images/icons8-linkedin-48.png" alt="linkedin"></a>
+					</li>
+					<li><a href="www.facebook.com"><img src="Assets/images/icons8-facebook-48.png" alt="facebook"></a>
+					</li>
+					<li><a href="www.instagram.com"><img src="Assets/images/icons8-instagram-48.png" alt="instagram"></a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="row justify-content-center my-4">
+			<div class="col text-center">
+				<p>Legal notice - Privacy Policy</p>
+			</div>
 		</div>
 
 	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
+	<script src="Assets/script/script.js"></script>
 </body>
 </html>
