@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="Assets/style/style.css">
 </head>
 <body class="body_color">
+	<button class="buton__welcome" id="btn__welcome">Clickeame si buscas un profesional del Front-End...</button>
+	<div class="second__body" id="second__body">
 	<!-- Barra de navegación -->
 	<nav class="navbar navbar-expand navbar-dark navbarColor">
 		<div class="container-fluid ">
@@ -19,12 +21,11 @@
 			  <a class="nav-link " href="#proyectos">Proyectos</a>
 			  <a class="nav-link " aria-current="true" href="#testimonio">Testimonios</a>
 			  <a class="nav-link " aria-current="true" href="#contacto">Contacto</a>
-			</div>
-		  
+			</div>	  
 		</div>
 	</nav>
 	  <!-- Carrera y pequeña intro -->
-	<Header class="container my-5 header_size">
+	<Header class="container-fluid mb-5 header_size">
 		<div class="row text-center ">
 			<div class="col">
 				<h1>Front End Developer</h1>
@@ -35,7 +36,6 @@
 				<h3>Me apasionan los desafíos, el trabajo en equipo y crear paginas web a gusto del cliente.</h3>
 			</div>
 		</div>
-
 	 </Header>
 	   <!-- Imagenes relacionadas conmigo, alguna foto -->
 	<section class="container-fluid section_color">
@@ -48,20 +48,21 @@
 		<div class="row text-center align-items-center">
 			<div class="col">
 				<h2 id="habilidades" class="border border-info-subtle border-start-0 rounded-end">Habilidades y aptitudes</h2>
-				<ul>
+				<ul id="lista">
 					<li class="liSkill">Capacidad de Respuesta</li>
-					<li class="liSkill" >Adaptabilidad a los cambios y ritmos de trabajo</li>
+					<li class="liSkill">Adaptabilidad a los cambios y ritmos de trabajo</li>
 					<li class="liSkill">Colaboración con equipos multidisciplinarios</li>
 					<li class="liSkill">Resolución de conflictos</li>
 					<li class="liSkill">Liderazgo</li>
 					<li class="liSkill">Trabajo en equipo</li>
+					<li class="liSkill">Metodologías ágiles</li>
+					<li class="liSkill">Desarrollo de proyectos con responsabilidad social</li>
 				</ul>
-
 			</div>
         </div>
 	</section>
 	<!-- Presentacion personal, fortalezas -->
-    <article class="container mt-4 article_color">
+    <article class="container-fluid mt-4 article_color">
 		<div class="row">
 			<h2 class="col text-center" id="">Lenguajes utilizados</h2>
 		</div>
@@ -86,7 +87,7 @@
 				<div class="card img_skill" style="width:100%">
 					<img src="Assets/images/javascript.png" class="card-img-top img-fluid img_skill" alt="js_icono">
 					<div class="card-body">
-				  	<p class="card-text">10 años de experiencia en HTML5 desarrollando proyectos y trabajando en equipos multidisciplinarios, ademas de tener conocimiento en los distintos frameworks; Vue.js, Angular.js, React.js y Next.js</p>
+				  	<p class="card-text">10 años de experiencia en HTML5 desarrollando proyectos y trabajando en equipos multidisciplinarios, ademas de tener conocimiento en los distintos frameworks y librerí	as; Vue.js, Angular.js, React.js y Next.js</p>
 					</div>
 			  	</div>
 			</div> 
@@ -97,8 +98,8 @@
 		<div class="row">
 			<h2 class="col text-center my-4 border border-info-subtle border-start-0 rounded-end" id="exp_laboral">Trabajos</h2>
 		</div>
-		<div class="row justify-content-center border rounded my-2 ">	
-			<div class="col-md-5 col-lg-3 text-center border rounded mx-2 my-2 trabajoColor">
+		<div class="row justify-content-center my-2 ">	
+			<div class="col-md-5 col-lg-3 text-center border rounded border-info-subtle mx-2 my-2 trabajoColor" id="card1">
 				<h3 class="my-2">Desarrollado front-end Mercado Libre 2018-Actualidad</h3>
 				<ul>
 					<li>
@@ -112,7 +113,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-md-5 col-lg-3 text-center border rounded mx-2 my-2 trabajoColor ">
+			<div class="col-md-5 col-lg-3 text-center border rounded border-info-subtle mx-2 my-2 trabajoColor" id="card2">
 				<h3 class="my-2">Desarrollado front-end Sr. Mercado Libre 2015-2018</h3>
 				<ul>
 					<li>
@@ -129,7 +130,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-md-5 col-lg-3 text-center border rounded mx-2 my-2 trabajoColor">
+			<div class="col-md-5 col-lg-3 text-center border rounded border-info-subtle mx-2 my-2 trabajoColor" id="card3" >
 				<h3 class="my-2">Programador web trainee Mercado Libre 2011-2015</h3>
 				<ul>
 					<li>
@@ -153,33 +154,33 @@
 		<div class="row">
 			<h2 class=" col text-center my-4 border border-info-subtle border-start-0 rounded-end" id="proyectos">Proyectos personales</h2>
 		</div>
-		<div class="row justify-content-center border my-2">
+		<div class="row justify-content-center border border-info-subtle my-2">
 				<div class="card col-md-5 col-lg-3 text-center my-3 mx-2" style=" width:18rem ;">
 					<div class="card-body">
 					  <h5 class="card-title">Desarrollo webpage Inmobiliaria "Tu casa"</h5>
 					  <p class="card-text ">Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas. lo</p>
-					  <a href="www.tucasa.com" target="_blank" class="btn btn-primary d-block">Al proyecto</a>
+					  <a href="www.tucasa.com" target="_blank" class="btn d-block btnProject">Al proyecto</a>
 					</div>
 				</div>
 				<div class="card col-md-5 col-lg-3 text-center my-3 mx-2" style="width:18rem ;">
 					<div class="card-body">
 					  <h5 class="card-title">Desarrollo webpage "El analista contable"</h5>
 					  <p class="card-text ">Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
-					  <a href="www.analista.com" target="_blank" class="btn btn-primary d-block">Al proyecto</a>
+					  <a href="www.analista.com" target="_blank" class="btn d-block btnProject">Al proyecto</a>
 					</div>
 				</div>
 				<div class="card col-md-5 col-lg-3 text-center my-3 mx-2" style="width:18rem ;">
 					<div class="card-body">
 					  <h5 class="card-title">Desarrollo webpage "El kilometro prestado"</h5>
 					  <p class="card-text ">Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas.</p>
-					  <a href="www.elklprest.com" target="_blank" class="btn btn-primary d-block">Al proyecto</a>
+					  <a href="www.elklprest.com" target="_blank" class="btn  d-block btnProject">Al proyecto</a>
 					</div>
 				</div>
 				<div class="card col-md-5 col-lg-3 text-center my-3 mx-2" style=" width:18rem ;">
 					<div class="card-body">
 					  <h5 class="card-title">Desarrollo webpage negocio local "Nojab"</h5>
 					  <p class="card-text ">Trabajo en equipo de Mercado Libre desarrollando funciones en distintas areas. lo</p>
-					  <a href="www.nojab.com" target="_blank" class="btn btn-primary d-block">Al proyecto </a>
+					  <a href="www.nojab.com" target="_blank" class="btn  d-block btnProject">Al proyecto </a>
 					</div>
 				</div>
 			</div>
@@ -188,7 +189,6 @@
 	<section class="container-fluid section_color">
 		<div class="row">
 			<h2 class="col text-center my-4 border border-info-subtle border-start-0 rounded-end " id="testimonio"> Testimonios</h2>
-
 		</div>
 		<div class="row h-100">
 			<div id="carouselExampleCaptions" class="carousel slide">
@@ -201,92 +201,94 @@
 				  <div class="carousel-item active">
 					<img src="Assets/images/testimonio1.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
-					  <h5>Juan Gabriel Larrain Soto</h5>
-					  <p>Gerente de Operaciones de Mercado Libre.</p>
+						<div class="cuadro_carusel">
+					  		<h5>Juan Gabriel Larrain Soto</h5>
+					  		<p>Gerente de Operaciones de Mercado Libre.</p>
+					 		<p>"Luis ha logrado llevar a cabo muchos proyectos vitales en nuestra compañía."</p>
+						</div>
 					</div>
 				  </div>
 				  <div class="carousel-item">
 					<img src="Assets/images/tesimonio2.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
-					  <h5>Juana Maria Gonzalez Videla</h5>
-					  <p>Analista Senior de 3wproyects.</p>
+						<div class="cuadro_carusel">
+					  		<h5>Juana Maria Gonzalez Videla</h5>
+					  		<p>Analista Senior de 3wproyects.</p>
+					  		<p>"Luis ha ayudado a nuestro proyecto desde el inicio y ha sido pieza fundamental en nuestro equipo."</p>
+						</div>
 					</div>
 				  </div>
 				  <div class="carousel-item">
 					<img src="Assets/images/testimonio3.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
-					  <h5>Jose Tomas Vial Santander</h5>
-					  <p>Jefe de análisis de datos del Banco Interamericano.</p>
+						<div class="cuadro_carusel">
+					  		<h5>Jose Tomas Vial Santander</h5>
+					  		<p>Jefe de análisis de datos del Banco Interamericano.</p>
+					  		<p>"Luis es un gran profesional con mucho talento y creatividad en lo que realiza."</p>
+						</div>
 					</div>
 				  </div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				  <span class="visually-hidden">Previous</span>
+				  	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  	<span class="visually-hidden">Previous</span>
 				</button>
 				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				  <span class="visually-hidden">Next</span>
+				  	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  	<span class="visually-hidden">Next</span>
 				</button>
-			  </div>
+			</div>
         </div>
 	</section>
 	<!-- Formulario de contacto -->
 	<section class="container-fluid my-3 section_color">
-		<form class="container-fluid border rounded" id="contactForm" >
+		<form class="container border rounded border-info-subtle my-5" id="contactForm" >
 			<h4 class="my-3" id="contacto" >Contacto</h4>
 			<p>Ingresa tus datos de contacto, tu motivo y te contactare a la brevedad.</p>
 			<div class="mb-3">
 				<label for="nombre-organizacion" class="form-label">Nombre/Organización</label>
 				<input type="text" class="form-control" id="nombre-organizacion">
-			  </div>
-			<div class="my-3">
-			  <label for="emailaddress" class="form-label">Email address</label>
-			  <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp">
-			  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
 			</div>
-			
+			<div class="my-3">
+			  	<label for="emailaddress" class="form-label">Email address</label>
+			 	<input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp">
+			  	<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+			</div>
 			<div class="mb-3">
 				<label for="proyecto" class="form-label">Descripción del proyecto</label>
 				<textarea class="form-control" id="proyecto" rows="3"></textarea>
-			  </div>
+			  	</div>
 			<button type="submit" class="btn btn-primary my-3" id="submitBtn" >Submit</button>
-		  </form>
-
+		</form>
 	</section>	 
-	
-
 	  <!-- Footer -->
 	<footer class="container-fluid my-5 footer_color">
 		<div class="row justify-content-center align-items-center text-center">
 			<div class="col">
-				<img src="Assets/images/img1footer.jpg" class="img-fluid" alt="footer1">
-
+				<img src="Assets/images/img1footer.jpg" class="img-fluid footerImg" alt="footer1">
 			</div>
 			<div class="col">
-				<img src="Assets/images/img2footer.jpg" class="img-fluid" alt="footer2">
-
+				<img src="Assets/images/img2footer.jpg" class="img-fluid footerImg" alt="footer2">
 			</div>
 			<div class="col">
 				<h4>Mis redes :</h4>
 				<ul class="lista_footer">
-					<li><a href="www.linkedin.com"><img src="Assets/images/icons8-linkedin-48.png" alt="linkedin"></a>
+					<li><a href="www.linkedin.com" target="_blank"><img src="Assets/images/icons8-linkedin-48.png" id="linkedin" alt="linkedin"></a>
 					</li>
-					<li><a href="www.facebook.com"><img src="Assets/images/icons8-facebook-48.png" alt="facebook"></a>
+					<li><a href="www.facebook.com" target="_blank"><img src="Assets/images/icons8-facebook-48.png" id="face" alt="facebook"></a>
 					</li>
-					<li><a href="www.instagram.com"><img src="Assets/images/icons8-instagram-48.png" alt="instagram"></a>
+					<li><a href="www.instagram.com" target="_blank"><img src="Assets/images/icons8-instagram-48.png" id="insta" alt="instagram"></a>
 					</li>
 				</ul>
 			</div>
-
 		</div>
 		<div class="row justify-content-center my-4">
 			<div class="col text-center">
-				<p>Legal notice - Privacy Policy</p>
+				<p class="legalNotice">Legal notice - Privacy Policy</p>
 			</div>
 		</div>
-
 	</footer>
+</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>

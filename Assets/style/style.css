@@ -1,23 +1,38 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 body{
-    
+    background-color: #002a46;   
     
 } 
+
+.buton__welcome{
+    border: none;
+    font-size: larger;
+    background-color: #00a5f6;
+    color:aliceblue;
+    width: 50%;
+    height: 150px;
+    border-radius: 5px;
+      
+}
+.buton__welcome:hover{
+    background-color: #007bff;
+}
+.second__body{
+    visibility: hidden;
+}
 .navbarColor{
     background-color: #002a46;
     color: aliceblue;
+
 }
+
 .nav-link:hover{
     color: rgb(40, 152, 233) !important;
 }
-.article_color{
-    background-image: url(/Assets/images/Backgroundimg.jpg);
-    
-    
-    
-}
+
 .section_color{
     background-color: #006398;
 
@@ -27,38 +42,102 @@ body{
     background-color: #002a46;
 
 }
+
 h4, h2{
     color: aliceblue;
+
 }
 
 #contactForm{
     background-color: #00a5f6;
+    width: 50%;
+    margin-top: 20px;
+
 }
 
 .header_size{
     height: 300px;
-    background-image: url()
-    
+    background-image: url(/Assets/images/Background2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: aliceblue;
     
 }
 
 .trabajoColor{
     background-color: #00a5f6;
     border-color: #002a46;
+
 }
 
 .liSkill{
     list-style: none;
+    color: aliceblue;
+
 }
+
 .lista_footer{
     display: flex;
     justify-content: end;
     list-style: none;
+
 }
-@media(min-width:576px){
+
+/*medias queries imagen habilidades */
+
+@media(max-width:576px){
     .img_skill{
         align-items: center;
         text-align: center;
-        width: 300px;
+        width: 150px;
     }
 }
+@media(max-width:768px){
+    .img_skill{
+        align-items: center;
+        text-align: center;
+        width: 250px;
+    }
+    
+}
+@media(max-width: 992px){
+    .img_skill{
+        align-items: center;
+        text-align: center;
+        width: 250px;
+    }
+
+}
+
+
+.cuadro_carusel{
+    background-color: #002a46;
+    border-radius: 25% 10%;
+    width: 70%;
+    opacity: 80%;
+
+}
+
+#submitBtn{
+    background-color: rgb(4, 122, 93);
+
+}
+
+.btnProject{
+    background-color:rgb(4, 122, 93) ;
+    color: aliceblue;
+
+}
+
+.footerImg{
+    height: 150px;
+    width: 190px;
+
+}
+
+.legalNotice{
+    color: aliceblue;
+
+}
+
+
